@@ -1,0 +1,243 @@
+body,html{
+    margin: 0;
+    background-image: linear-gradient(0deg, #5e6f85 0%, #95929e 10%, #d6b0a8 20%, #ebd5c5 30%, #d6dee4  50%, #a0c2eb 100%);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.clear{
+    clear:both;
+}
+.content{
+    color:#fff;
+}
+.content img {
+    margin: 5px 5px;
+}
+
+.blog_demo{
+    background-color: #00000060;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    border-radius: .25rem;
+}
+
+.blog_demo .header {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 头部导航 */
+#top-menu{
+    width: 100%;
+    height:60px;
+    position: fixed;
+    top: 0;
+    z-index: 1001;
+}
+
+/* 侧边栏 左 */
+#left-menu{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    z-index: 1001;
+    transition: all 0.3s ease;
+}
+
+#left-menu #left-icon{
+    font-size: 30px;
+    color:#fff;
+    position: absolute;
+    left:220px;
+    height:60px;
+    display:flex;
+    align-items:center;
+}
+
+#left-menu.xs{
+    margin-left:-200px;
+    transition: all 0.3s ease;
+}
+
+/* 页面内容 */
+#content{
+    
+    position: relative;
+    top: 60px;
+    margin-left:220px;
+    margin-right:20px;
+    padding:10px 0;
+}
+
+#content.xs{
+    margin-left:20px;
+}
+
+/* 页面底部 */
+#footer{
+    margin-top:10px;
+    text-align: center;
+    color:#fff;
+    font-size:18px;
+    font-weight: 800;
+    padding:10px 0;
+}   
+
+/* 其他 */
+.el-menu{
+    border: none;
+}
+
+.el-submenu__title:hover{
+    background-color:#00000060!important;
+}
+
+.el-menu-item:hover{
+    background-color:#00000060!important;
+}
+
+.el-col{
+    margin-top: 10px;
+}
+
+.el-form-item__label{
+    color:#fff!important;
+}
+
+.el-input input{
+    background:#00000060!important;
+    color:#fff;
+    border: none;
+}
+
+.el-textarea__inner{
+    background:#00000060;
+    border: none;
+    color:#fff;
+}
+
+.el-breadcrumb__inner {
+    color:#fff;
+}
+
+.el-breadcrumb__inner.is-link{
+    color:#fff;
+}
+
+.el-breadcrumb__item:last-child .el-breadcrumb__inner{
+    color:#fff
+}
+
+/* .blog_demo .el-button{
+    position: fixed;
+    right: 20px;
+    width: 100px;
+    z-index: 100;
+    margin-top: 240px;
+} */
+
+.el-transfer-panel {
+    border: 1px solid #00000060;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #00000060;
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    max-height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.el-transfer-panel .el-transfer-panel__header {
+    height: 40px;
+    line-height: 40px;
+    background: #00000060;
+    margin: 0;
+    padding-left: 15px;
+    border-bottom: 1px solid #00000060;
+    box-sizing: border-box;
+    color: #000;
+}
+
+.el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.el-tree-node__content:hover {
+    background-color: #00000060;
+}
+
+.el-popover {
+    position: absolute;
+    background: #606266;
+    min-width: 150px;
+    border: 1px solid #606266;
+    padding: 12px;
+    z-index: 2000;
+    color: #606266;
+    line-height: 1.4;
+    text-align: justify;
+    font-size: 14px;
+    box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    word-break: break-all;
+}
+
+.el-tree-node:focus > .el-tree-node__content {
+    background-color: #00000060;
+}
+
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+    color: #FFF;
+    background-color: #00000060;
+    border-color: #00000060;
+}
+
+.el-transfer-panel__item.el-checkbox {
+    color: #dee2ea;
+}
+
+.el-pagination {
+    text-align: center;
+}
+
+
+.el-pagination.is-background .el-pager li{
+    background-color:#00000060;
+    color:#fff;
+}
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li{
+    background-color:#00000060;
+    color:#fff;
+}
+
+/* summernote css设置 */
+.note-btn{
+    color:#fff;
+}
+
+.note-btn:hover{
+    color:#00000060;
+}
+
+.dropdown-menu{
+    background-color:#00000060;
+    color:#fff;
+}
+
+.dropdown-menu a{
+    color:#fff;
+}
+
+.popover{
+    background:#00000060;
+}
+
+.note-editable{
+    color:#fff;
+}
